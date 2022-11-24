@@ -16,10 +16,10 @@ namespace seterrachooser
             Console.OutputEncoding = Encoding.UTF8;
             // If you are running this program on your own computer, replace all the file paths in the following 4 lines with
             // the file paths of where the CSV files are located on your computer.
-            string[] smallMaps = File.ReadAllLines("smallMaps.csv");
-            string[] mediumMaps = File.ReadAllLines("mediumMaps.csv");
-            string[] largeMaps = File.ReadAllLines("largeMaps.csv");
-            string[] hugeMaps = File.ReadAllLines("hugeMaps.csv");
+            string[] smallMaps = File.ReadAllLines("../../../csv/smallMaps.csv");
+            string[] mediumMaps = File.ReadAllLines("../../../csv/mediumMaps.csv");
+            string[] largeMaps = File.ReadAllLines("../../../csv/largeMaps.csv");
+            string[] hugeMaps = File.ReadAllLines("../../../csv/hugeMaps.csv");
 
             Console.WriteLine("----Small maps----");
             MapChooser(smallMaps, 3);
