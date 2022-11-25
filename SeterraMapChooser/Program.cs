@@ -10,6 +10,7 @@ namespace seterrachooser
     {
         static void Main(string[] args)
         {
+            Console.OutputEncoding = Encoding.UTF8;
             SeterraChooser chooser = new SeterraChooser();
             chooser.ChooseMaps();
             Console.ReadLine();

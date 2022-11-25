@@ -12,10 +12,7 @@ namespace seterrachooser
         Random random = new Random();
         string[] categories = { "Pin", "Pin Hard", "Place Labels", "Multiple Choice", "Shownext" };        
         public void ChooseMaps()
-        {
-            Console.OutputEncoding = Encoding.UTF8;
-            // If you are running this program on your own computer, replace all the file paths in the following 4 lines with
-            // the file paths of where the CSV files are located on your computer.
+        {          
             string[] smallMaps = File.ReadAllLines("../../../csv/smallMaps.csv");
             string[] mediumMaps = File.ReadAllLines("../../../csv/mediumMaps.csv");
             string[] largeMaps = File.ReadAllLines("../../../csv/largeMaps.csv");
