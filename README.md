@@ -33,6 +33,24 @@ However, there will not be more than one specific game mode present for each ele
 
 This is what an example map selection would look like:
 
-![](https://cdn.discordapp.com/attachments/833118228800733217/1045686912897261618/mapselection.png)
-
+```
+----Small maps----
+Australia: Surrounding Countries --- Place Labels
+World: 7 Ancient Wonders --- Multiple Choice
+The Gambia: Divisions and Cities --- Shownext
+----Medium maps----
+Europe: Physical Features --- Pin
+Iraq: Governorates --- Multiple Choice
+Australia: Northern Territory --- Place Labels
+Sweden: The Will of the Geographer --- Pin Hard
+----Large maps----
+Mexico: State Capitals --- Shownext
+Asia: Capitals (with random omissions) --- Pin
+China: Province Capitals (with Taiwan) --- Multiple Choice
+Colombia: Departments --- Place Labels
+----Huge maps----
+The U.S.: 50 States Outlines (Old Version) --- Shownext
+Pennsylvania: Counties --- Pin
+70 Most Populous Countries, Capitals --- Multiple Choice
+```
 
