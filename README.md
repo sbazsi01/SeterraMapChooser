@@ -1,4 +1,3 @@
-
 # SeterraMapChooser
 Chooses Seterra maps and categories using an algorithm AstroTheLast created.
 
@@ -8,10 +7,10 @@ Maps will be selected through an algorithm which will select the quizzes randoml
 
 Of the 14 quizzes,
 
-3 will be 6-15 elements
-4 will be 16-30 elements
-4 will be 31-45 elements
-3 will be 46-70 elements
+- 3 will be 6-15 elements
+- 4 will be 16-30 elements
+- 4 will be 31-45 elements
+- 3 will be 46-70 elements
 
 ## Category Selection
 
@@ -53,4 +52,3 @@ The U.S.: 50 States Outlines (Old Version) --- Shownext
 Pennsylvania: Counties --- Pin
 70 Most Populous Countries, Capitals --- Multiple Choice
 ```
-
